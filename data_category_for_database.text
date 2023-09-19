@@ -1,0 +1,12 @@
+category : name , parent_id
+product : name , price , desc , qun , slug , status (active , i)
+blog: title , desc , category_id , user_id
+discount : pers , ex , product_id , code
+order : uuid , title , user_id
+cart : product_id , user_id
+like: blog_id , user_id
+comments : comment , user_id , blog_id
+image:
+Rates : product_id , user_id , rate
+user : name , phone , email, password , status (admin, user)
+fatora : order_id, title , ..
